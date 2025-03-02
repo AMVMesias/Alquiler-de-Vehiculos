@@ -2,7 +2,6 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
 <!--Carrusel-->
     <div class="carousel-container">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -12,7 +11,10 @@
                     <div class="carousel-caption">
                         <h1>Alquiler de Vehículos</h1>
                         <p>La mejor selección de autos para tu comodidad</p>
-                        <button type="button" class="btn btn-primary btn-lg">Reserva ya!</button>
+                        <button type="button" class="btn btn-primary btn-lg">
+                            <i class="fas fa-car-side me-2"></i>
+                            Reserva ya!
+                        </button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -20,7 +22,10 @@
                     <div class="carousel-caption">
                         <h1>Alquiler de Vehículos</h1>
                         <p>La mejor selección de autos para tu comodidad</p>
-                        <button type="button" class="btn btn-primary btn-lg">Reserva ya!</button>
+                        <button type="button" class="btn btn-primary btn-lg">
+                            <i class="fas fa-car-side me-2"></i>
+                            Reserva ya!
+                        </button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -28,7 +33,10 @@
                     <div class="carousel-caption">
                         <h1>Alquiler de Vehículos</h1>
                         <p>La mejor selección de autos para tu comodidad</p>
-                        <button type="button" class="btn btn-primary btn-lg">Reserva ya!</button>
+                        <button type="button" class="btn btn-primary btn-lg">
+                            <i class="fas fa-car-side me-2"></i>
+                            Reserva ya!
+                        </button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -36,7 +44,10 @@
                     <div class="carousel-caption">
                         <h1>Alquiler de Vehículos</h1>
                         <p>La mejor selección de autos para tu comodidad</p>
-                        <button type="button" class="btn btn-primary btn-lg">Reserva ya!</button>
+                        <button type="button" class="btn btn-primary btn-lg">
+                            <i class="fas fa-car-side me-2"></i>
+                            Reserva ya!
+                        </button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -44,12 +55,153 @@
                     <div class="carousel-caption">
                         <h1>Alquiler de Vehículos</h1>
                         <p>La mejor selección de autos para tu comodidad</p>
-                        <button type="button" class="btn btn-primary btn-lg">Reserva ya!</button>
+                        <button type="button" class="btn btn-primary btn-lg">
+                            <i class="fas fa-car-side me-2"></i>
+                            Reserva ya!
+                        </button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Contenido-->
+<div class="container py-5">
+    <div class="row justify-content-center g-4">
+        <div class="col-md-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Vehículos Disponibles</h5>
+                    <p class="card-text">Explora nuestra flota de vehículos</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Reservas</h5>
+                    <p class="card-text">Gestiona tus reservas</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Servicios</h5>
+                    <p class="card-text">Conoce nuestros servicios</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+<!--Catalogo autos-->
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+            <!-- Aqui va cargadas las imágenes-->
+                <img src="~/img/auto1.png" class="card-img-top" alt="Modelo de Auto">
+                <div class="card-body">
+                <!-- Informacion del auto -->
+                    <h5 class="card-title">Toyota Corolla 2024</h5>
+                    <p class="card-text">Sedán ejecutivo con el mejor rendimiento y confort.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <i class="fas fa-engine fa-fw text-warning"></i>
+                        Motor 2.0L | 169 HP
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-tachometer-alt fa-fw text-warning"></i>
+                        Control de Crucero Adaptativo
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-users fa-fw text-warning"></i>
+                        5 Pasajeros
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-gas-pump fa-fw text-warning"></i>
+                        Consumo: 18.5 km/l
+                    </li>
+                </ul>
+                <div class="card-body text-center">
+                    <button class="btn btn-warning w-100">
+                        <i class="fas fa-calculator me-2"></i>
+                        Cotiza Ahora
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!--Aqui se repite otra vez, por lo tanto se debe hacer un generic -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="~/img/auto1.png" class="card-img-top" alt="Modelo de Auto">
+                <div class="card-body">
+                    <h5 class="card-title">Toyota Corolla 2024</h5>
+                    <p class="card-text">Sedán ejecutivo con el mejor rendimiento y confort.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <i class="fas fa-engine fa-fw text-warning"></i>
+                        Motor 2.0L | 169 HP
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-tachometer-alt fa-fw text-warning"></i>
+                        Control de Crucero Adaptativo
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-users fa-fw text-warning"></i>
+                        5 Pasajeros
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-gas-pump fa-fw text-warning"></i>
+                        Consumo: 18.5 km/l
+                    </li>
+                </ul>
+                <div class="card-body text-center">
+                    <button class="btn btn-warning w-100">
+                        <i class="fas fa-calculator me-2"></i>
+                        Cotiza Ahora
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="~/img/auto1.png" class="card-img-top" alt="Modelo de Auto">
+                <div class="card-body">
+                    <h5 class="card-title">Toyota Corolla 2024</h5>
+                    <p class="card-text">Sedán ejecutivo con el mejor rendimiento y confort.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <i class="fas fa-engine fa-fw text-warning"></i>
+                        Motor 2.0L | 169 HP
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-tachometer-alt fa-fw text-warning"></i>
+                        Control de Crucero Adaptativo
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-users fa-fw text-warning"></i>
+                        5 Pasajeros
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-gas-pump fa-fw text-warning"></i>
+                        Consumo: 18.5 km/l
+                    </li>
+                </ul>
+                <div class="card-body text-center">
+                    <button class="btn btn-warning w-100">
+                        <i class="fas fa-calculator me-2"></i>
+                        Cotiza Ahora
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

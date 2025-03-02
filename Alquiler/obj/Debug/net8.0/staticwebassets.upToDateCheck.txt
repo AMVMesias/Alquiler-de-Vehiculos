@@ -1,5 +1,14 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\auto1.png
+wwwroot\img\auto2.png
+wwwroot\img\auto3.png
+wwwroot\img\auto4.png
+wwwroot\img\auto5.png
+wwwroot\img\auto6.png
+wwwroot\img\auto7.png
+wwwroot\img\auto8.png
+wwwroot\img\auto9.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
