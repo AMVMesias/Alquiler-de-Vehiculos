@@ -20,3 +20,213 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Reset básico para eliminar espacios */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el carrusel */
+.carousel-caption {
+    padding: 20px;
+    border-radius: 10px;
+    bottom: 65%; /* Cambiado de 50% a 65% para mover más arriba */
+    transform: translateY(50%);
+    }
+
+.carousel-caption h1 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white; /* Para mantener consistencia con el diseño */
+}
+
+.carousel-caption p {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    font-size: 1.5rem;
+    color: var(--bs-light);
+}
+
+.custom-caption {
+    top: 40%;  /* Ajusta este valor para mover el caption hacia arriba */
+    bottom: auto;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.custom-caption h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    margin-bottom: 1rem;
+}
+
+.custom-caption p {
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+/* Estilo para el header completo */
+header {
+    background-color: var(--bs-dark);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Eliminar o modificar la clase .carrusel existente */
+.carrusel {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; /* Esto asegura que la imagen cubra todo el espacio */
+}
+
+/* Ajustar el contenedor del carrusel */
+.carousel {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.carousel-container {
+    margin-top: 0; /* Eliminado el margen superior */
+    width: 100%;
+    padding: 0;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: calc(100vh - 40px); /* Altura total menos altura del navbar */
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Asegurar que las imágenes del carrusel se ajusten correctamente */
+.carousel-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Ajustar el contenedor principal para permitir el ancho completo */
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    background-color: var(--bs-dark); /* Color negro de Bootstrap */
+    /* O puedes usar el color hexadecimal directamente */
+    /* background-color: #000000; */
+}
+
+/* Opcional: si quieres asegurarte que el texto sea visible sobre el fondo negro */
+.container-fluid .text-content {
+    color: var(--bs-light);
+}
+
+/* Ajustar el espaciado del contenido principal */
+main {
+    padding: 0;
+    padding-top: 0; /* Cambiado de 20px a 0 */
+}
+
+/* Ajustar el navbar dentro del header */
+.custom-navbar {
+    background-color: var(--bs-dark);
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-family: 'Russo One', sans-serif;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.brand-car {
+    font-family: 'Racing Sans One', cursive;
+    color: var(--bs-warning);
+    margin-right: 2px;
+}
+
+.brand-express {
+    font-family: 'Russo One', sans-serif;
+    color: var(--bs-light);
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.4rem;
+    }
+}
+
+.navbar-toggler {
+    margin-right: 2rem;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-menu-dark {
+    background-color: var(--bs-dark);
+    border: 1px solid var(--bs-warning);
+}
+
+.dropdown-item {
+    color: var(--bs-gray-400);
+}
+
+.dropdown-item:hover {
+    background-color: var(--bs-warning);
+    color: var(--bs-dark);
+}
+
+.dropdown-divider {
+    border-top: 1px solid var(--bs-warning);
+    opacity: 0.2;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid var(--bs-warning);
+}
+
+.offcanvas-title {
+    color: var(--bs-warning);
+    font-family: 'Russo One', sans-serif;
+}
+
+/* Ajustar el offcanvas para mantener consistencia */
+.offcanvas {
+    background-color: var(--bs-dark);
+    margin-top: 0;
+}
+
+.offcanvas-header {
+    background-color: var(--bs-dark);
+    border-bottom: 1px solid var(--bs-warning);
+}
+
+.offcanvas-body {
+    background-color: var(--bs-dark);
+}
+
+/* Ajustar el navbar */
+.navbar {
+    background-color: var(--bs-dark) !important;
+    padding: 15px;
+    margin: 0;
+}
