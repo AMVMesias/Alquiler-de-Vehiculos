@@ -30,8 +30,13 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< Updated upstream
       <Fingerprint>mh5j2apeqp</Fingerprint>
       <Integrity>ilzprlpDoHI6EYqekytgTFiaRkTE6z/tpMteankBGDM=</Integrity>
+=======
+      <Fingerprint>mz8ep3lbwm</Fingerprint>
+      <Integrity>/iWkvJ2gybzWoMaKf9whrn4TMYIh7QhTu4yTFUp47ZQ=</Integrity>
+>>>>>>> Stashed changes
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>

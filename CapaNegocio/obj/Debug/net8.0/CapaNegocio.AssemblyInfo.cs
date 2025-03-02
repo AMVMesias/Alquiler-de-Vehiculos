@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CapaNegocio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9d7b8bbbf84e1080a718cea4b22c3334a912950")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a19fa4afb7ce51e5abecc9ee8fbd2d8f3b813a8")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("CapaNegocio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CapaNegocio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
