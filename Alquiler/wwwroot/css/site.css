@@ -31,7 +31,7 @@ body, html {
 .carousel-caption {
     padding: 20px;
     border-radius: 10px;
-    bottom: 65%; /* Cambiado de 50% a 65% para mover más arriba */
+    bottom: 75%; /* Cambiado de 50% a 65% para mover más arriba */
     transform: translateY(50%);
     }
 
@@ -50,9 +50,9 @@ body, html {
 }
 
 .custom-caption {
-    top: 40%;  /* Ajusta este valor para mover el caption hacia arriba */
+    top: 50%;  /* Ajusta este valor para mover el caption hacia arriba */
     bottom: auto;
-    transform: translateY(-50%);
+    /*transform: translateY(-70%);*/
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
@@ -87,6 +87,7 @@ header {
 
 /* Ajustar el contenedor del carrusel */
 .carousel {
+  padding-top: 83px;
     width: 100vw;
     position: relative;
     left: 50%;
@@ -174,6 +175,29 @@ main {
     .navbar-brand {
         font-size: 1.4rem;
     }
+}
+
+.navbar-toggler {
+    margin-right: 2rem;
+    border-color: var(--bs-light) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Estilo para el hover del botón */
+.navbar-toggler:hover {
+    opacity: 0.8;
+}
+
+/* Estilo para cuando el botón está activo */
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.navbar-toggler {
+    margin-right: 2rem;
 }
 
 .navbar-toggler {
