@@ -1,1 +1,52 @@
+# Archivos de entorno
+.env
+
+# Archivos de usuario
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Archivos de compilación
+bin/
+obj/
+out/
+
+# Archivos de paquetes
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Archivos de configuración de VS
+.vscode/
 .vs/
+.vscode-test/
+
+# Archivos de log
+*.log
+
+# Archivos de publicación
+publish/
+publishOutput/
+
+# Archivos de configuración de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de Git
+.git/
+.gitignore
+
+# Archivos de configuración de Rider
+.idea/
+*.sln.iml
+
+# Archivos de configuración de Visual Studio
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Archivos específicos mencionados en el error
+Alquiler/bin/
+Alquiler/obj/
