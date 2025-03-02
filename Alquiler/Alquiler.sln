@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alquiler", "Alquiler.csproj", "{62B00585-01E7-4DAE-B3E7-F694FFF86175}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2A027F04-09DE-4F78-BA10-C77162B2B632} = {2A027F04-09DE-4F78-BA10-C77162B2B632}
+		{7E01AD53-9BAB-4355-9B1B-81B7D57525D0} = {7E01AD53-9BAB-4355-9B1B-81B7D57525D0}
+		{B6DE6633-2178-4240-AED4-700EC40EF2CC} = {B6DE6633-2178-4240-AED4-700EC40EF2CC}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "..\CapaDatos\CapaDatos.csproj", "{B6DE6633-2178-4240-AED4-700EC40EF2CC}"
 EndProject
@@ -36,5 +41,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D069C0C2-6426-4176-AA03-FF6A5FB3B254}
 	EndGlobalSection
 EndGlobal

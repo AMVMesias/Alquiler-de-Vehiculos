@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Web-Proyecto\\CapaEntidad\\CapaEntidad.csproj": {}
+    "C:\\Users\\mesia\\Desktop\\Universidad\\Web Project\\Alquiler-de-Vehiculos\\CapaEntidad\\CapaEntidad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Web-Proyecto\\CapaEntidad\\CapaEntidad.csproj": {
+    "C:\\Users\\mesia\\Desktop\\Universidad\\Web Project\\Alquiler-de-Vehiculos\\CapaEntidad\\CapaEntidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Web-Proyecto\\CapaEntidad\\CapaEntidad.csproj",
+        "projectUniqueName": "C:\\Users\\mesia\\Desktop\\Universidad\\Web Project\\Alquiler-de-Vehiculos\\CapaEntidad\\CapaEntidad.csproj",
         "projectName": "CapaEntidad",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Web-Proyecto\\CapaEntidad\\CapaEntidad.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Web-Proyecto\\CapaEntidad\\obj\\",
+        "projectPath": "C:\\Users\\mesia\\Desktop\\Universidad\\Web Project\\Alquiler-de-Vehiculos\\CapaEntidad\\CapaEntidad.csproj",
+        "packagesPath": "C:\\Users\\mesia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mesia\\Desktop\\Universidad\\Web Project\\Alquiler-de-Vehiculos\\CapaEntidad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mesia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,11 +44,21 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.25057.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
